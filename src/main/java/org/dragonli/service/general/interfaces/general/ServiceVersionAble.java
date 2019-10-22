@@ -8,5 +8,5 @@ package org.dragonli.service.general.interfaces.general;
  *
  */
 public interface ServiceVersionAble {
-	public String getServiceVersion() ;
+	String getServiceVersion() ;
 }
