@@ -12,32 +12,25 @@
 	<packaging>jar</packaging>
 	<name>dragonli-general-service-interfaces</name>
 	<version>1.0</version>
-	
-	
-	<dependencies>
 
+	<description>defined some general services,such as other-service or db-service or netty service</description>
+	<url>https://github.com/dragonli-people/dragonli-general-service-interfaces</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>dragonli studio team</name>
+			<email>dragonlistudio@gmail.com</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git@github.com:dragonli-people/dragonli-general-service-interfaces.git</connection>
+		<developerConnection>scm:git:git@github.com:dragonli-people/dragonli-general-service-interfaces.git</developerConnection>
+		<url>git@github.com:dragonli-people/dragonli-general-service-interfaces.git</url>
+	</scm>
 
-	</dependencies>
-	
-
-	
-	<build>
-
-		<plugins>
-		
-			<plugin>
-         	<groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-            	<source>1.8</source>
-            	<target>1.8</target>
-            	<fork>true</fork>
-            	<encoding>UTF-8</encoding>
-            </configuration>
-         </plugin>
-
-		</plugins>
-
-
-	</build>
 </project>
