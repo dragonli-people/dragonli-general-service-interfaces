@@ -32,10 +32,6 @@ public interface WebSocketService extends ServiceVersionAble {
 	boolean subscribe(String[] topics,String unid);
 	
 	boolean unsubscribe(String topic,String unid);
-	/**
-	 * 取消订阅主题
 
-	 */
-	boolean unsubscribeByUnid(String topic,String unid);
 
 }
