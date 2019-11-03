@@ -10,11 +10,11 @@ import java.util.Map;
  *
  */
 public interface WebSocketManagerService extends ServiceVersionAble {
-	public boolean sendTextMessage(String uniqueId, String content);
-	public String recommendServer(String group);
-	public Map<String,Object>recommendServerForUUid(String group,String uuid) throws Exception;
-	public boolean sendTextMessage(String uniqueId,String content,String publicNetworkHost);
-	public boolean sendTextMessage(String uniqueId,String content,String group,String id);	
-	public int sendTextMessageToAll(String content);
-	public Map<String,Object> doSendTextMessageToAll(String group,String content);
+	boolean sendTextMessage(String uniqueId, String content);
+	String recommendServer(String group);
+	Map<String,Object>recommendServerForUUid(String group,String uuid) throws Exception;
+	boolean sendTextMessage(String uniqueId,String content,String publicNetworkHost);
+	boolean sendTextMessage(String uniqueId,String content,String group,String id);	
+	int sendTextMessageToAll(String content);
+	Map<String,Object> doSendTextMessageToAll(String group,String content);
 }
