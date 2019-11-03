@@ -12,7 +12,7 @@
 	<artifactId>dragonli-general-service-interfaces</artifactId>
 	<packaging>jar</packaging>
 	<name>dragonli-general-service-interfaces</name>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 
 	<description>defined some general services,such as other-service or db-service or netty service</description>
 	<url>https://github.com/dragonli-people/dragonli-general-service-interfaces</url>
